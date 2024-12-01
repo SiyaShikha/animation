@@ -1,4 +1,4 @@
-const LENGTH = 30;
+const LENGTH = 60;
 const WIDTH = 20;
 
 function repeat(string, nTimes) {
@@ -37,9 +37,9 @@ function delay(time) {
 
 function blinkStars(n) {
   for (let sky = 1; sky <= n; sky++) {
+    console.clear();
     console.log(createSky(LENGTH, WIDTH));
     delay(800000000);
-    console.clear();
   }
 }
 
